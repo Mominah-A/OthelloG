@@ -83,6 +83,9 @@
       <DependentUpon>SaveGame.cs</DependentUpon>
     </Compile>
     <Compile Include="State.cs" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>

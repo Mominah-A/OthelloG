@@ -2,7 +2,7 @@
 
 namespace OthelloG
 {
-	// The state of tha game
+	// The states of the game
 	public class State
 	{
 		public int[,] Board { get; set; }

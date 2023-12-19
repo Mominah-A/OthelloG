@@ -72,7 +72,7 @@ namespace OthelloG
             this.ms_GameSettings.Location = new System.Drawing.Point(0, 0);
             this.ms_GameSettings.Name = "ms_GameSettings";
             this.ms_GameSettings.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.ms_GameSettings.Size = new System.Drawing.Size(724, 28);
+            this.ms_GameSettings.Size = new System.Drawing.Size(724, 30);
             this.ms_GameSettings.TabIndex = 3;
             this.ms_GameSettings.Text = "menuStrip1";
             // 
@@ -83,7 +83,7 @@ namespace OthelloG
             this.saveGameToolStripMenuItem,
             this.loadGameToolStripMenuItem});
             this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
-            this.gameToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.gameToolStripMenuItem.Size = new System.Drawing.Size(62, 26);
             this.gameToolStripMenuItem.Text = "Game";
             // 
             // newGameToolStripMenuItem
@@ -113,7 +113,7 @@ namespace OthelloG
             this.informationPanelToolStripMenuItem,
             this.speakToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(70, 26);
             this.settingToolStripMenuItem.Text = "Setting";
             // 
             // informationPanelToolStripMenuItem
@@ -138,7 +138,7 @@ namespace OthelloG
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 26);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
@@ -156,21 +156,21 @@ namespace OthelloG
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.pnlBoardContainer, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 28);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 30);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 116F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(724, 692);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(724, 690);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(4, 580);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(4, 578);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(716, 108);
             this.panel1.TabIndex = 0;
@@ -186,7 +186,7 @@ namespace OthelloG
             this.panel2.Controls.Add(this.blackPlayerLabel);
             this.panel2.Controls.Add(this.whitePlayerLabel);
             this.panel2.Location = new System.Drawing.Point(17, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(683, 94);
             this.panel2.TabIndex = 0;
@@ -196,7 +196,7 @@ namespace OthelloG
             this.player2Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(160)))), ((int)(((byte)(32)))));
             this.player2Panel.Controls.Add(this.button2);
             this.player2Panel.Location = new System.Drawing.Point(365, 39);
-            this.player2Panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.player2Panel.Margin = new System.Windows.Forms.Padding(4);
             this.player2Panel.Name = "player2Panel";
             this.player2Panel.Size = new System.Drawing.Size(52, 43);
             this.player2Panel.TabIndex = 2;
@@ -207,7 +207,7 @@ namespace OthelloG
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(5, 5);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(41, 32);
             this.button2.TabIndex = 0;
@@ -218,7 +218,7 @@ namespace OthelloG
             this.player1Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(160)))), ((int)(((byte)(32)))));
             this.player1Panel.Controls.Add(this.button1);
             this.player1Panel.Location = new System.Drawing.Point(25, 39);
-            this.player1Panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.player1Panel.Margin = new System.Windows.Forms.Padding(4);
             this.player1Panel.Name = "player1Panel";
             this.player1Panel.Size = new System.Drawing.Size(52, 43);
             this.player1Panel.TabIndex = 2;
@@ -229,7 +229,7 @@ namespace OthelloG
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(5, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(41, 32);
             this.button1.TabIndex = 0;
@@ -238,7 +238,7 @@ namespace OthelloG
             // player2NameTextBox
             // 
             this.player2NameTextBox.Location = new System.Drawing.Point(365, 9);
-            this.player2NameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.player2NameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.player2NameTextBox.Name = "player2NameTextBox";
             this.player2NameTextBox.Size = new System.Drawing.Size(280, 22);
             this.player2NameTextBox.TabIndex = 1;
@@ -246,7 +246,7 @@ namespace OthelloG
             // player1NameTextBox
             // 
             this.player1NameTextBox.Location = new System.Drawing.Point(25, 9);
-            this.player1NameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.player1NameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.player1NameTextBox.Name = "player1NameTextBox";
             this.player1NameTextBox.Size = new System.Drawing.Size(243, 22);
             this.player1NameTextBox.TabIndex = 1;
@@ -276,8 +276,8 @@ namespace OthelloG
             // pnlBoardContainer
             // 
             this.pnlBoardContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnlBoardContainer.Location = new System.Drawing.Point(42, 42);
-            this.pnlBoardContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlBoardContainer.Location = new System.Drawing.Point(42, 41);
+            this.pnlBoardContainer.Margin = new System.Windows.Forms.Padding(4);
             this.pnlBoardContainer.Name = "pnlBoardContainer";
             this.pnlBoardContainer.Size = new System.Drawing.Size(640, 492);
             this.pnlBoardContainer.TabIndex = 1;
@@ -291,7 +291,7 @@ namespace OthelloG
             this.Controls.Add(this.ms_GameSettings);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GUI";
